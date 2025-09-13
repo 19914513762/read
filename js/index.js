@@ -8,7 +8,7 @@ function adjustHeight(){
     let iframe=document.getElementById("iframeId");   /*获取iframe这个元素*/
     iframe.height=iframe.contentWindow.document.body.scrollHeight+'px';/*根据iframe子页面的高度调整自身的额高度*/
     const f=document.querySelector('footer');
-    if((parseInt(iframe.height)+58)<parseInt(window.innerHeight)){
+    if((parseInt(iframe.height)+68)<parseInt(window.innerHeight)){
         f.style.position='absolute';
         f.style.bottom='0';
         f.style.left='0';
