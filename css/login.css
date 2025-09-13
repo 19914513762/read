@@ -80,7 +80,7 @@ body .container {
   border: 1px solid white;
   border-radius: 50px;
   background-image: url("../images/登录背景图.jpg");
-  background-size: 100% 100%;
+  background-size: 100% 100vh;
 }
 body .container .cover {
   position: absolute;
