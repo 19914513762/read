@@ -1,0 +1,58 @@
+{
+  "id": "4342877",
+  "name": "山柳读书堂",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9600531",
+      "name": "返回箭头",
+      "font_class": "fanhuijiantou",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "18564914",
+      "name": "图书",
+      "font_class": "tushu",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "630094",
+      "name": "向右箭头",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "630095",
+      "name": "向左箭头",
+      "font_class": "xiangzuojiantou",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "1356161",
+      "name": "眼睛-闭",
+      "font_class": "yanjing-bi",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "21459321",
+      "name": "闭眼睛",
+      "font_class": "biyanjing",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "31156966",
+      "name": "眼睛-查看",
+      "font_class": "yanjing-chakan",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

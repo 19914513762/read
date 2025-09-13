@@ -1,0 +1,117 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, PingFangSC-Regular, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+img {
+  vertical-align: bottom;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.left {
+  float: left;
+  width: 21%;
+  height: 695px;
+  padding-top: 38px;
+}
+.left .top {
+  width: 100%;
+  height: 90px;
+  margin-bottom: 22px;
+  border: 2px solid #eed6b6;
+}
+.left .bottom {
+  width: 100%;
+  height: 281px;
+  border: 2px solid #eed6b6;
+}
+.left .bottom dd:nth-of-type(3) {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  font-size: 98px;
+  color: #e49999;
+}
+.left dl {
+  margin: 0 0;
+}
+.left dt {
+  width: 100%;
+  height: 50x;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #eed6b6;
+}
+.left dd {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  margin: 0 0;
+  text-align: center;
+  overflow: hidden;
+}
+.left dd img {
+  width: 50%;
+  height: 30px;
+}
+.right {
+  float: left;
+  width: 79%;
+  height: 695px;
+  padding-left: 5%;
+  padding-top: 38px;
+}
+.right h3 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.right .content {
+  padding-top: 10px;
+}
+.right .content .left {
+  float: left;
+  width: 60%;
+  height: 326px;
+  padding-top: 0;
+  margin-right: 30px;
+}
+.right .content .left img {
+  width: 100%;
+}
+.right .content p {
+  text-indent: 2em;
+  font-size: 20px;
+}
+.right .content div {
+  text-align: center;
+  margin-top: 15px;
+}
+.right .content div p {
+  padding: 5px 0;
+  font-family: '华文行楷';
+}

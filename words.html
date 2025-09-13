@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山柳读书堂-留言页面</title>
+    <link rel="icon" href="images/浏览器图标.ico">
+    <link rel="stylesheet" href="css/words.css">
+</head>
+<body>
+    <div class="remind">
+        留言主题或内容不得为空！！！
+    </div>
+    <div class="left">
+    </div>
+    <div class="middle">
+        <h2>留言</h2>
+        <form action="words.html" method="post">
+            <div>
+                <div>留言主题：</div>
+                <div>
+                    <input type="text" name="title" class="formItem" id="title" title="请输入留言主题" placeholder="请输入留言主题" required>
+                </div>
+            </div>
+            <div>
+                <div>留言内容：</div>
+                <div>
+                    <textarea name="content" id="content" cols="40" rows="13" name="content" title="请输入留言内容" placeholder="请输入留言内容" required></textarea>
+                </div>
+            </div>
+            <div class="btP">
+                <input type="submit" id="button">
+            </div>
+        </form>
+    </div>
+    <div class="right">
+    </div>
+    <script src="js/word.js"></script>
+</body>
+</html>

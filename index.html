@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山柳读书堂-首页</title>
+    <link rel="icon" href="images/浏览器图标.ico">
+    <link rel="stylesheet" href="icon/iconfont.css">
+    <link rel="stylesheet" href="icon/iconfont.js">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <script src="js/loading.js"></script> -->
+</head>
+<body onload="mo()">
+    <!-- <div class="load">
+        <img src="images/loading.gif" alt="">
+    </div> -->
+    <header>
+        
+        <div class="left">
+            <img src="images/图标.png">
+            <h2>山柳读书堂</h2>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="home.html" target="content" class="list active" onclick="chick(this)">首页</a></li>
+                <li><a href="recommend.html" target="content" class="list" onclick="chick(this)">图书推荐</a></li>
+                <li><a href="community.html" target="content" class="list" onclick="chick(this)">图书社区</a></li>
+                <li><a href="about.html" target="content" class="list" onclick="chick(this)">关于我们</a></li>
+                <li><a href="words.html" target="content" class="list" onclick="chick(this)">留言</a></li>
+                <li><a href="login.html">登录|注册</a></li>
+                <li><a href="#">欢迎您，</a>
+                    <div class="logOut">退出登录</div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div>
+            <!--设置浮动框架，方便部分内容进行跳转，将scrolling设为no取消展示滚动条，onload在加载时自动根据子页面的内容调整高度-->
+            <iframe src="home.html" name="content" scrolling="no" id="iframeId" onload="adjustHeight()"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="left"></div>
+        <div class="middle">
+            <p>山柳读书堂 版权所有</p>
+        </div>
+        <div class="right"></div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, PingFangSC-Regular, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+img {
+  vertical-align: bottom;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+h3 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.content {
+  margin-bottom: 30px;
+}
+.content .left {
+  float: left;
+  width: 40%;
+  margin-right: 30px;
+}
+.content .left video {
+  width: 100%;
+  height: 100%;
+}
+.content p {
+  font-size: 20px;
+  text-indent: 2em;
+}
+.bottom {
+  clear: both;
+}
+.bottom .bLeft {
+  float: left;
+  width: 48%;
+  height: 240px;
+  border: 2px solid #eed6b6;
+}
+.bottom .bRight {
+  float: right;
+  width: 48%;
+  height: 240px;
+  border: 2px solid #eed6b6;
+}
+dl {
+  margin: 0 0;
+}
+dt {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 10px 30px;
+  background-color: #eed6b6;
+}
+dd {
+  width: 89%;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 30px;
+  border-bottom: 1px solid black;
+}
+dd:nth-of-type(5) {
+  border: 0px solid #eed6b6;
+}

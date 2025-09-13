@@ -1,0 +1,106 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, PingFangSC-Regular, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+img {
+  vertical-align: bottom;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.left {
+  float: left;
+  width: 21%;
+  height: 695px;
+  padding-top: 38px;
+}
+.left .top {
+  width: 100%;
+  height: 415px;
+  margin-bottom: 22px;
+  border: 2px solid #eed6b6;
+}
+.left .bottom {
+  width: 100%;
+  height: 255px;
+  border: 2px solid #eed6b6;
+}
+.left dl {
+  margin: 0 0;
+}
+.left dt {
+  width: 100%;
+  height: 54px;
+  line-height: 54px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #eed6b6;
+}
+.left dd {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 0;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.left dd:hover {
+  background-color: #eed6b6;
+}
+.right {
+  float: left;
+  width: 79%;
+  height: 695px;
+  padding-left: 3%;
+  padding-top: 38px;
+}
+.right h3 {
+  padding-left: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.right table {
+  width: 100%;
+  padding: 0 0;
+}
+.right table td {
+  width: 25%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.right table td div {
+  height: 300px;
+}
+.right table td div img {
+  width: 100%;
+  height: 100%;
+}
+.right table td div h4 {
+  margin-top: 3px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
