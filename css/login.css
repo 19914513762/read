@@ -34,7 +34,7 @@ a {
 body {
   background-image: url("../images/登录页面背景图.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100vh;
 }
 body .remind {
   opacity: 0;
@@ -80,7 +80,7 @@ body .container {
   border: 1px solid white;
   border-radius: 50px;
   background-image: url("../images/登录背景图.jpg");
-  background-size: 100% 100vh;
+  background-size: 100% 100%;
 }
 body .container .cover {
   position: absolute;
